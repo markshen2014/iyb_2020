@@ -3,13 +3,13 @@ import { Provider } from 'react-redux';
 
 import store from './store';
 
-import Counter from './Counter'
+import TestCounter from './TestCounter'
 
 function App() {
   return (
     <Provider store={store}>         
          <div>
-           <Counter />
+           <TestCounter />
          </div>
     </Provider>  
   );
